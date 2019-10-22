@@ -1,0 +1,196 @@
+body {
+    background: #293942e3;
+}
+header {
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    margin: 2rem 2rem 0rem 2rem;
+    display: flex;
+    background: #ffffff;
+    border-style: double;
+}
+
+nav {
+    width: 400px;
+    margin: 1rem;
+}
+
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+} 
+
+.escondible {
+    display: none;
+    border-style: outset;
+    background: #ffffff;
+    line-height: 2rem;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+}
+
+.esc1:hover .escondible {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+}
+
+.logo {
+    width: 200px; 
+    display: inline;
+    margin: 0rem;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+section {
+    padding: 1rem;
+    background: #ffffff;
+    margin: 0.5rem 2rem 0rem 2rem;
+    border-style: double;
+}
+
+h1, h2, h3 {
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.copyright {
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+.disco {
+    width: 5rem;
+    margin-right: 2rem;
+    position: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.foto-integrantes {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.foto-int {
+    width: 15rem;
+    float: left;
+    margin: 0rem 1rem 1rem 0rem;
+    clear:both;
+}
+
+.esc2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3rem;
+}
+
+.escondible2 {
+    display: none;
+    font-size: initial;
+}
+
+.esc2:hover .escondible2{
+    display: block;
+    margin-top: -2.5rem;
+    margin-left: 10rem;
+}
+
+.esc3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3rem;
+}
+
+.escondible3 {
+    display: none;
+    font-size: initial;
+}
+
+.esc3:hover .escondible3{
+    display: block;
+    margin-top: -2.5rem;
+    margin-left: 10rem;
+}
+
+
+.esc4 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3rem;
+}
+
+.escondible4 {
+    display: none;
+    font-size: initial;
+}
+
+.esc4:hover .escondible4{
+    display: block;
+    margin-top: -2.5rem;
+    margin-left: 10rem;
+}
+
+.esc5 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3rem;
+}
+
+.escondible5 {
+    display: none;
+    font-size: initial;
+}
+
+.esc5:hover .escondible5{
+    display: block;
+    margin-top: -2.5rem;
+    margin-left: 10rem;
+}
+
+footer {
+    padding: 1rem;
+    background: #ffffff;
+    margin: 0.5rem 2rem 0rem 2rem;
+    border-style: double;
+    font-family: 'Nunito', sans-serif;
+}
+
+a.link:link {
+    color: rgb(73, 116, 172);
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+
+a.link:active { 
+    color: rgb(43, 7, 250);
+}
+
+a.link:visited {
+    color: rgb(73, 116, 172);
+
+}
+
+a.link:hover {
+    color: rgb(196, 78, 196);
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
